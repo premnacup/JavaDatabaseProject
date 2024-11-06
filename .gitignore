@@ -1,24 +1,27 @@
-# Compiled class file
+# Ignore IDE-specific files
+# NetBeans
+Database/nbproject/private/
+
+# Ignore build output directories
+Database/build/
+
+# Ignore compiled class files
 *.class
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Ignore packaged files (JAR, WAR, EAR)
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore additional files
+*.iml
+/Database/dist/
